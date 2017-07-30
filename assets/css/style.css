@@ -181,7 +181,7 @@ ul {
 }
 
 a {
-  color: #52bad5;
+  color: #cf343d;
   text-decoration: underline;
   transition: 0.2s;
 }
@@ -321,7 +321,7 @@ img[width], img[height] {
 }
 
 .c-navigation__item.is-selected a {
-  background-color: #ccebf3;
+  background-color: rgba(207, 52, 61, 0.2);
 }
 
 .c-navigation__link {
@@ -347,7 +347,7 @@ img[width], img[height] {
 }
 
 .u-skip-link {
-  color: #52bad5;
+  color: #cf343d;
   background-color: #fafafa;
   font-weight: bold;
   text-decoration: none;
