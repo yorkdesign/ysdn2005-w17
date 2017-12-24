@@ -52,49 +52,64 @@
 <li><code>lastnamefirstinitial</code>: With your last name and first letter of your first name (e.g. <code>buchananp</code>).</li>
 <li><code>path</code>: The folder path to your file, including the file name and file extension (e.g. if your project 1A PDF document is in a folder named <code>project-1</code> and the file is named <code>project-1a.pdf</code> the path would be <code>project-1/project-1a.pdf</code>).</li>
 </ul>
+<p>Using the examples above, the final URL would look like this:</p>
+<p><code>http://digital-locker.design.yorku.ca/1006Mw18/lab2/buchananp/project-1/project-1a.pdf</code></p>
 <p>Make sure that none of your file names contain spaces or special characters. Replace spaces with <code>-</code>.</p>
-<p>When you enter that URL in a web browsers address bar you should see the document load in your web browser.</p>
+<p>When you enter that URL in a web browsers address bar you should see the document load.</p>
+<p><strong>Note:</strong> You are <em>strongly</em> encouraged to send your links to another student in the class to test and ensure everything loads properly before submitting to your instructor. If your links are broken or you have <a href="#how-do-i-resolve-file-permission-issues-403-error-">file permission issues (403 errors)</a>, your project will be considered late until the issues are resolved.</p>
+<h3 id="common-mistakes">Common Mistakes</h3>
+<ul>
+<li>Your links should <strong>not</strong> begin with <code>file:///</code>. When you send the link to your instructor in Slack, it should be clickable.</li>
+<li>Your links should <strong>not</strong> contain spaces. If they do, rename the folders and files so they do not contain spaces.</li>
+<li>404 errors: This indicates your link path is not formed correctly (there may be a typo or a space character in a folder or file name). Please review the steps above and check your folder and file names carefully.</li>
+<li>403 errors: This indicates there is a file permission issue. You can resolve these issues by follow the steps outlined in <a href="#how-do-i-resolve-file-permission-issues-403-error-">How do I resolve file permission issues (403 error)?</a>.</li>
+</ul>
 <h2 id="class-work-submission-process">Class Work Submission Process</h2>
 <p>All class work must be submitted using the following process.</p>
 <ol>
 <li>Upload the project components to Digital Locker (see <a href="#how-do-i-access-digital-locker-">How do I access Digital Locker?</a> for connecting to Digital Locker).</li>
-<li>Create a web browser compatible link to the project components on Digital Locker (see <a href="#how-do-i-access-my-project-files-through-a-web-browser-">How do I access my project files through a web browser?</a> for connecting to Digital Locker).</li>
+<li>Create a web browser compatible link to the project components on Digital Locker (see <a href="#how-do-i-access-my-project-files-through-a-web-browser-">How do I access my project files through a web browser?</a>).</li>
 <li>Send the link as a direct message to your instructor with <a href="https://ysdn1006-w18.slack.com">Slack</a>.</li>
 </ol>
 <p>It is recommended that you have a friend test your links from their computer to ensure they are working properly.</p>
-<p>Work that is not sent as a link via Slack will not be accepted (e.g. work uploaded to Digital Locker but <em>not</em> sent to your instructor). Do not upload PDFs directly to Slack. Instead, upload them to Digital Locker and send the link to your instructor.</p>
+<p>Work that is not sent as a link via Slack will not be accepted (e.g. work uploaded to Digital Locker but <em>not</em> sent to your instructor). Do not upload PDFs directly to Slack. Instead, upload them to Digital Locker and send the link to your instructor. <strong>Late submissions</strong> will be measured based on the timestamp of the Slack message containing the link to your work sent to your instructor.</p>
 <p>Make sure to optimize your PDF file sizes so they are as small as possible.</p>
 <p>At the end of the term, your folder on Digital Locker should have this structure:</p>
 <pre><code>buchananp
 ├── exercises
-│   ├── exercisea
-│   └── exerciseb
+│   ├── exercise-a
+│   └── exercise-b
 ├── ice
 │   ├── ice1
 │   ├── ice2
 │   ├── ice3
 │   ├── ice4
 │   └── ice5
-├── project1
-│   ├── project1a
-│   ├── project1b
-│   ├── project1c
-│   ├── project1d
-│   └── project1e
-└── project2
-    ├── project2a
-    ├── project2b
-    ├── project2c
-    ├── project2d
-    └── project2e
+├── project-1
+│   ├── project-1a
+│   ├── project-1b
+│   ├── project-1c
+│   ├── project-1d
+│   └── project-1e
+└── project-2
+    ├── project-2a
+    ├── project-2b
+    ├── project-2c
+    ├── project-2d
+    └── project-2e
 </code></pre><h2 id="how-do-i-resolve-file-permission-issues-403-error-">How do I resolve file permission issues (403 error)?</h2>
-<p>You will occasionally encounter 403 errors (file permission errors) when trying to view your projects in a web browser, that are stored in Digital Locker. To resolve the file permission errors:</p>
+<p>You will occasionally encounter 403 errors (file permission errors) when trying to view your projects that are stored in Digital Locker in a web browser. To resolve the file permission errors:</p>
 <ol>
-<li>From your local computer (not on Digital Locker), right click on the file/folder that is causing the issue and select Get Info (⌘ + I).</li>
+<li>From your local computer (<em>not</em> on Digital Locker), right click on the file/folder that is causing the issue and select Get Info (⌘ + I).</li>
 <li>In the file properties window, open Sharing &amp; Permissions by clicking the grey triangle.</li>
-<li>Set <code>everyone</code> to <code>Read only</code>.</li>
-<li>If this is a folder, click the Gear icon and select Apply to enclosed items...</li>
-<li>Delete the file/folder from Digital Locker and replace with the file/folder you just changed the permissions on.</li>
+<li><p>Set <code>everyone</code> to <code>Read only</code>.</p>
+<p> <img src="../assets/images/get-info-panel-permissions.jpg" alt="Get info panel in Finder"></p>
+</li>
+<li><p>If this is a folder, click the Gear icon and select Apply to enclosed items...</p>
+<p> <img src="../assets/images/get-info-panel-folders.jpg" alt="Get info panel in Finder"></p>
+</li>
+<li><p>Delete the file/folder from Digital Locker and replace with the file/folder you just changed the permissions for.</p>
+</li>
 </ol>
 <p>Test the link again to ensure the file permission errors have been resolved.</p>
 <h2 id="setting-up-digital-locker-project-folders">Setting up Digital Locker project folders</h2>
